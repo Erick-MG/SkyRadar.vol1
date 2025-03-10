@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/weather', methods=['GET'])
 def get_weather():
     city = request.args.get('city')  # Fetch city from URL like ?city=Berlin
-    api_key = os.getenv("WEATHER_API_KEY")
+    api_key = os.getenv("VITE_WEATHER_API_KEY")
 
     if not city:
         return jsonify({"error": "City parameter is required"}), 400
