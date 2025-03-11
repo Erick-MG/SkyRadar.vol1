@@ -1,0 +1,23 @@
+@import url('https://unpkg.com/leaflet@1.7.1/dist/leaflet.css');
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Full Screen Height */
+  width: 100vw;  /* Full Screen Width */
+  background: #001F3F; /* AWS Cyber Vatican Blue */
+  overflow: hidden; /* Prevent Scrollbars */
+}
+
+.map-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border: 3px solid #00FFFF; /* Cyber Pope AWS Vatican Cloud Borders */
+}

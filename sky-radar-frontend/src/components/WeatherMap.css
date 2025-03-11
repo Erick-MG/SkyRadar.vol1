@@ -1,0 +1,6 @@
+.map-container {
+  height: 100vh; /* Full screen height */
+  width: 100%;   /* Full width */
+  z-index: 1;    /* This makes sure the map is on top of all layers */
+  background: #000; /* Just in case */
+}
