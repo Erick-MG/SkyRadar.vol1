@@ -27,9 +27,9 @@ const WeatherMap = () => {
 
   // Define flight routes with individual speed factors
   const routes = [
-    { id: 1, from: "london", to: "berlin", callsign: "BA986", velocity: 850, speedFactor: 0.015 },
-    { id: 2, from: "paris", to: "madrid", callsign: "AF1200", velocity: 820, speedFactor: 0.010 },
-    { id: 3, from: "amsterdam", to: "milan", callsign: "KL1629", velocity: 810, speedFactor: 0.012 }
+    { id: 1, from: "london", to: "berlin", callsign: "BA986", velocity: 850, speedFactor: 0.005 },
+    { id: 2, from: "paris", to: "madrid", callsign: "AF1200", velocity: 820, speedFactor: 0.008 },
+    { id: 3, from: "amsterdam", to: "milan", callsign: "KL1629", velocity: 810, speedFactor: 0.010 }
   ];
 
   // Initialize map

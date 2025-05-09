@@ -8,7 +8,7 @@ export default defineConfig({
     port: 5173,
     strictPort: true,
     watch: {
-      usePolling: true, // AWS Compatible Vatican Cloud Injection
+      usePolling: true,
     },
   },
 });
